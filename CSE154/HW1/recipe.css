@@ -1,0 +1,48 @@
+/* This is the style sheet for pie.html*/
+
+h1, h2, h3, h4, h5, h6{
+    display: inline;
+    background-color: #F0F0F0;
+    color: #A4A400;
+    text-decoration: underline;
+    font-size: 18pt;
+    letter-spacing: 0.25em;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+}
+
+/* make our main heading a little unique */
+#main{
+    text-align: center;
+    font-size: 22pt;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+body{
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, Serif;
+    background-image: url("https://webster.cs.washington.edu/images/silverware.jpg");
+    background-attachment: fixed;
+}
+
+a{
+    color: #A4A400;
+}
+
+pre{
+    font-family: Georgia, Garamond, Serif;
+}
+
+ul{
+    list-style-image: url("https://webster.cs.washington.edu/images/pie-icon.gif");
+}
+
+
+.italic{
+    background-color: #FFFFA8;
+    font-style: italic;
+    margin: 2%;
+}
